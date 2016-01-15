@@ -13,6 +13,7 @@
 		810DC9EF1C496133008FA39B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810DC9ED1C496133008FA39B /* Main.storyboard */; };
 		810DC9F11C496133008FA39B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810DC9F01C496133008FA39B /* Assets.xcassets */; };
 		810DC9F41C496133008FA39B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810DC9F21C496133008FA39B /* LaunchScreen.storyboard */; };
+		810DC9FD1C496631008FA39B /* webBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810DC9FC1C496631008FA39B /* webBrowserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		810DC9F01C496133008FA39B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		810DC9F31C496133008FA39B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		810DC9F51C496133008FA39B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810DC9FB1C496631008FA39B /* webBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = webBrowserViewController.h; path = ../webBrowserViewController.h; sourceTree = "<group>"; };
+		810DC9FC1C496631008FA39B /* webBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = webBrowserViewController.m; path = ../webBrowserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,8 @@
 		810DC9E31C496133008FA39B /* Week1Assessment - YouJing */ = {
 			isa = PBXGroup;
 			children = (
-				810DC9E71C496133008FA39B /* AppDelegate.h */,
-				810DC9E81C496133008FA39B /* AppDelegate.m */,
+				810DC9FB1C496631008FA39B /* webBrowserViewController.h */,
+				810DC9FC1C496631008FA39B /* webBrowserViewController.m */,
 				810DC9EA1C496133008FA39B /* ViewController.h */,
 				810DC9EB1C496133008FA39B /* ViewController.m */,
 				810DC9ED1C496133008FA39B /* Main.storyboard */,
@@ -74,6 +77,8 @@
 		810DC9E41C496133008FA39B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				810DC9E71C496133008FA39B /* AppDelegate.h */,
+				810DC9E81C496133008FA39B /* AppDelegate.m */,
 				810DC9E51C496133008FA39B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -151,6 +156,7 @@
 			files = (
 				810DC9EC1C496133008FA39B /* ViewController.m in Sources */,
 				810DC9E91C496133008FA39B /* AppDelegate.m in Sources */,
+				810DC9FD1C496631008FA39B /* webBrowserViewController.m in Sources */,
 				810DC9E61C496133008FA39B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
